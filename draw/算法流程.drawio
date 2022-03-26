@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T09:17:18.669Z" agent="5.0 (Windows)" etag="NOadVo1mzgXmPWNMQs9P" version="17.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-26T09:22:08.646Z" agent="5.0 (Windows)" etag="XyA01Xi0zh3LKCgbWn91" version="17.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1678" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -179,7 +179,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-61" value="通过该数据获取常用工况&lt;font face=&quot;Times New Roman&quot;&gt;working_condition&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1120" y="1055" width="176" height="60" as="geometry" />
+          <mxGeometry x="1120" y="1060" width="176" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-62" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;通过该数据，结合常用工况&lt;/b&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;working_condition&lt;/font&gt;获取:&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;有效值列表valid&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数列表totalleage&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;运行时间t_now_new&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数m_now_new&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1068" y="1140" width="280" height="80" as="geometry" />
@@ -375,7 +375,13 @@
           <mxGeometry x="399" y="410" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-117" value="3000公里的数据累计阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontColor=#4D4D4D;fontStyle=0;labelBackgroundColor=#FFFFCC;labelBorderColor=#B3FF66;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="960" y="860" width="150" height="20" as="geometry" />
+          <mxGeometry x="799" y="920" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-118" value="累计公里数新增100" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontColor=#4D4D4D;fontStyle=0;labelBackgroundColor=#FFFFCC;labelBorderColor=#B3FF66;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="335" y="810" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-119" value="多辆车" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontColor=#4D4D4D;fontStyle=0;labelBackgroundColor=#FFFFCC;labelBorderColor=#B3FF66;spacingRight=10;spacingLeft=10;spacing=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="655.25" y="300" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
