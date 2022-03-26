@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T09:04:53.394Z" agent="5.0 (Windows)" etag="13jDWGryVwNOX_aXPJt3" version="17.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-26T09:17:18.669Z" agent="5.0 (Windows)" etag="NOadVo1mzgXmPWNMQs9P" version="17.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2397" dy="1251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -44,7 +44,7 @@
             <mxPoint x="624" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-21" value="遍历三台车" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#ffffff;strokeColor=#432D57;fillColor=#76608a;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-21" value="遍历车牌" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#ffffff;strokeColor=#432D57;fillColor=#76608a;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="564" y="310" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-23" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="FsYi8NZGnZM2h-i9JEnJ-14">
@@ -150,12 +150,12 @@
             <mxPoint y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-52" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="FsYi8NZGnZM2h-i9JEnJ-21">
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-52" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-48" target="FsYi8NZGnZM2h-i9JEnJ-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="913" y="1009" as="sourcePoint" />
             <mxPoint x="688" y="349" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1200" y="1009" />
+              <mxPoint x="1200" y="990" />
               <mxPoint x="1200" y="330" />
             </Array>
           </mxGeometry>
@@ -364,6 +364,18 @@
           <mxGeometry x="-0.9723" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-114" value="Tag为True表示数据累计完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontColor=#4D4D4D;fontStyle=0;labelBackgroundColor=#FFFFCC;labelBorderColor=#B3FF66;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="893" y="755" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-115" value="空滤、精滤、粗滤" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontColor=#4D4D4D;fontStyle=0;labelBackgroundColor=#FFFFCC;labelBorderColor=#B3FF66;spacingRight=10;spacingLeft=10;spacing=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="644" y="215" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-116" value="读取最新的小批量数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontColor=#4D4D4D;fontStyle=0;labelBackgroundColor=#FFFFCC;labelBorderColor=#B3FF66;spacingRight=10;spacingLeft=10;spacing=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="399" y="410" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-117" value="3000公里的数据累计阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontColor=#4D4D4D;fontStyle=0;labelBackgroundColor=#FFFFCC;labelBorderColor=#B3FF66;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="960" y="860" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
