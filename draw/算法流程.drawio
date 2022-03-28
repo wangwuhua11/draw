@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T09:22:08.646Z" agent="5.0 (Windows)" etag="XyA01Xi0zh3LKCgbWn91" version="17.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-28T06:37:27.235Z" agent="5.0 (Windows)" etag="rETVydyB2ifglqvQE0FI" version="17.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1678" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1974" dy="1031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -90,10 +90,10 @@
             <mxPoint x="894" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-36" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;读取当前结果文件ResultFile.csv，&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;获取结果文件中当前车、当前滤清器：&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;初始运行时间t_initial&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;初始累计公里数m_initial&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;当前运行时间t_i&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;当前累计公里数m_i、&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;有效值列表valid_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数列表m_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;常用工况w_c&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;标志Tag&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;fontFamily=Times New Roman;fontStyle=2;spacingLeft=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-36" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;读取当前结果文件ResultFile.csv，&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;获取结果文件中当前车、当前滤清器：&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;初始运行时间time_index_initial&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;初始累计公里数totalleage_initial&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;当前运行时间time_index_now&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;当前累计公里数totalleage_now&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;有效值列表datavalid_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数列表totalleage_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;常用工况work_condition&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;数据累计标志Tag&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;fontFamily=Times New Roman;fontStyle=2;spacingLeft=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="640" y="566" width="290" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-37" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;剔除数据中的null值，获取最后一条数据中：&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;运行时间t_now&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数m_now&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;fontFamily=Times New Roman;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-37" value="&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;剔除数据中的null值，获取最后一条数据中：&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;运行时间time_index_now_i&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;累计公里数totalleage_now_i&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;fontFamily=Times New Roman;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="665" y="490" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-39" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-25" target="FsYi8NZGnZM2h-i9JEnJ-37">
@@ -113,10 +113,10 @@
             <mxPoint x="894" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-42" value="Tag标志是否为Fase" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#23445d;fillColor=#bac8d3;fontFamily=Times New Roman;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-42" value="Tag是否为Fase" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#23445d;fillColor=#bac8d3;fontFamily=Times New Roman;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="694" y="740" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-45" value="累计公里数m_now-初始累计公里数m_initial &amp;lt; 3000" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#23445d;fillColor=#bac8d3;fontFamily=Times New Roman;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-45" value="&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now_i&lt;/font&gt; - totalleage_initial &amp;lt; 3000" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#23445d;fillColor=#bac8d3;fontFamily=Times New Roman;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="619" y="830" width="330" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-46" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-36" target="FsYi8NZGnZM2h-i9JEnJ-42">
@@ -136,7 +136,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-48" value="&lt;div&gt;&lt;b&gt;将结果文件中，当前车、当前滤清器：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;当前运行时间t_i = 运行时间t_now&lt;/div&gt;&lt;div&gt;当前累计公里数m_i = 累计公里数m_now&lt;/div&gt;&lt;div&gt;当前剩余寿命rul = “Data is accumulation!”&lt;/div&gt;&lt;div&gt;&lt;b&gt;保存文件&lt;/b&gt;&lt;b&gt;ResultFile.csv&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;align=left;fontFamily=Times New Roman;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-48" value="&lt;div&gt;&lt;b&gt;更改结果文件，将当前车、当前滤清器：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;time_index_now = time_index_now_i&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now&lt;/font&gt; = &lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now_i&lt;/font&gt;&lt;/div&gt;&lt;div&gt;rul = “Data is accumulation!”&lt;/div&gt;&lt;div&gt;&lt;b&gt;保存结果文件&lt;/b&gt;&lt;b&gt;ResultFile.csv&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;align=left;fontFamily=Times New Roman;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="659" y="950" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-51" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-45" target="FsYi8NZGnZM2h-i9JEnJ-48">
@@ -160,7 +160,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-57" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;读取当前车、当前滤清器：&lt;/b&gt;运行时间t_now至初始运行时间t_initial的所有数据，剔除null值&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;fontFamily=Times New Roman;fontStyle=2;spacingLeft=10;spacingRight=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-57" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;读取当前车、当前滤清器：&lt;/b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;time_index_now_i&lt;/font&gt;至time_index_initial的所有数据，剔除null值&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;fontFamily=Times New Roman;fontStyle=2;spacingLeft=10;spacingRight=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="655.25" y="1060" width="257.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-58" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-45" target="FsYi8NZGnZM2h-i9JEnJ-57">
@@ -178,11 +178,11 @@
             <mxPoint x="2" y="61" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-61" value="通过该数据获取常用工况&lt;font face=&quot;Times New Roman&quot;&gt;working_condition&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-61" value="通过该数据获取常用工况&lt;font face=&quot;Times New Roman&quot;&gt;WC&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1120" y="1060" width="176" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-62" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;通过该数据，结合常用工况&lt;/b&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;working_condition&lt;/font&gt;获取:&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;有效值列表valid&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数列表totalleage&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;运行时间t_now_new&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数m_now_new&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1068" y="1140" width="280" height="80" as="geometry" />
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-62" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;通过该数据，结合常用工况&lt;/b&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;WC&lt;/font&gt;获取:&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;有效值列表dv_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数列表t_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;运行时间time_index_now_new&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数totalleage_now_new&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1102" y="1150" width="212" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-63" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;通过有效值列表和累计公里数列表计算：&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;剩余寿命R&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;寿命预警R_warn&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1096.75" y="1260" width="222.5" height="60" as="geometry" />
@@ -205,7 +205,7 @@
             <mxPoint x="1044" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-67" value="Tag = True" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-67" value="Tag_new = True" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="940" y="1275" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-68" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-63" target="FsYi8NZGnZM2h-i9JEnJ-67">
@@ -214,7 +214,7 @@
             <mxPoint x="1044" y="1160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-69" value="&lt;div&gt;&lt;b&gt;将结果文件中，当前车、当前滤清器：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;当前运行时间t_i = 运行时间t_now_new&lt;/div&gt;&lt;div&gt;当前累计公里数m_i = 累计公里数m_now_new&lt;/div&gt;&lt;div&gt;有效值列表valid_list = valid&lt;br&gt;&lt;/div&gt;&lt;div&gt;累计公里数列表m_list = totalleage&lt;br&gt;&lt;/div&gt;&lt;div&gt;当前剩余寿命rul = R&lt;/div&gt;&lt;div&gt;寿命预警rul_warning = R_warn&lt;br&gt;&lt;/div&gt;&lt;div&gt;常用工况w_c = working_condition&lt;br&gt;&lt;/div&gt;&lt;div&gt;标志Tag = Tag&lt;/div&gt;&lt;div&gt;&lt;b&gt;保存文件&lt;/b&gt;&lt;b&gt;ResultFile.csv&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;align=left;fontFamily=Times New Roman;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-69" value="&lt;div&gt;&lt;b&gt;更改结果文件，将当前车、当前滤清器：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;time_index_now = time_index_now_new&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now&lt;/font&gt; = &lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now&lt;/font&gt;_new&lt;/div&gt;&lt;div&gt;datavalid_list = dv_list&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;totalleage&lt;/font&gt;_list = t_list&lt;br&gt;&lt;/div&gt;&lt;div&gt;rul = R&lt;/div&gt;&lt;div&gt;rul_warning = R_warn&lt;br&gt;&lt;/div&gt;&lt;div&gt;working_condition = WC&lt;br&gt;&lt;/div&gt;&lt;div&gt;Tag = Tag_new &lt;/div&gt;&lt;div&gt;&lt;b&gt;保存结果文件&lt;/b&gt;&lt;b&gt;ResultFile.csv&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;align=left;fontFamily=Times New Roman;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="659" y="1215" width="250" height="150" as="geometry" />
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-73" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-67" target="FsYi8NZGnZM2h-i9JEnJ-69">
@@ -249,7 +249,7 @@
             <mxPoint x="225" y="81" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-84" value="累计公里数m_now-当前累计公里数m_i &amp;lt; 100" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#23445d;fillColor=#bac8d3;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-84" value="&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now_i &lt;/font&gt;-&lt;font face=&quot;Times New Roman&quot;&gt; totalleage_now&lt;/font&gt; &amp;lt; 100" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#23445d;fillColor=#bac8d3;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="170" y="725" width="290" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-85" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-42" target="FsYi8NZGnZM2h-i9JEnJ-84">
@@ -269,7 +269,7 @@
             <mxPoint x="690" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-92" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;读取当前车、当前滤清器：&lt;/b&gt;运行时间t_now至当前时运行时间t_i的所有数据&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;fontStyle=2;spacingLeft=10;spacingRight=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-92" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;读取当前车、当前滤清器：&lt;/b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;time_index_now_i&lt;/font&gt;至time_index_now的所有数据&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;fontStyle=2;spacingLeft=10;spacingRight=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="175" y="845" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-94" value="&lt;div align=&quot;left&quot;&gt;根据“累计公里数”字段添加“累计公里数_100”字段&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -301,16 +301,16 @@
             <mxPoint x="690" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-100" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;通过该数据，结合常用工况w_c获取:&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;有效值列表valid&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数列表totalleage&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;运行时间t_now_new&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数m_now_new&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="211.25" y="1010" width="207.5" height="80" as="geometry" />
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-100" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;通过该数据，结合常用工况&lt;/b&gt;&lt;b&gt;work_condition获取:&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;有效值列表dv_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数列表t_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;运行时间time_index_now_new&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数totalleage_now_new&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="1010" width="270" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-101" value="&lt;div&gt;将有效值列表valid新增于有效值列表valid_list形成valid_list_new&lt;/div&gt;&lt;div&gt;将累计公里数列表totalleage新增与累计公里数列表m_list形成m_list_new&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="1120" width="390" height="40" as="geometry" />
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-101" value="&lt;div&gt;将dv_list新增于datavalid_list形成dv_list_new&lt;/div&gt;&lt;div&gt;将t_list新增于totalleage_list形成t_list_new&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="1120" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-102" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;通过有效值列表valid_list_new和累计公里数列表m_list_new计算：&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;剩余寿命R&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;寿命预警R_warn&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="135" y="1190" width="360" height="50" as="geometry" />
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-102" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;通过&lt;/b&gt;&lt;b&gt;dv_list_new和&lt;/b&gt;&lt;b&gt;t_list_new计算：&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;剩余寿命R&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;寿命预警R_warn&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="215" y="1190" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-103" value="&lt;div&gt;&lt;b&gt;将结果文件中，当前车、当前滤清器：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;当前运行时间t_i = 运行时间t_now_new&lt;/div&gt;&lt;div&gt;当前累计公里数m_i = 累计公里数m_now_new&lt;/div&gt;&lt;div&gt;有效值列表valid_list = valid_list_new&lt;br&gt;&lt;/div&gt;&lt;div&gt;累计公里数列表m_list = m_list_new&lt;br&gt;&lt;/div&gt;&lt;div&gt;当前剩余寿命rul = R&lt;/div&gt;&lt;div&gt;寿命预警rul_warning = R_warn&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;保存文件&lt;/b&gt;&lt;b&gt;ResultFile.csv&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;align=left;fontFamily=Times New Roman;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-103" value="&lt;div&gt;&lt;b&gt;将结果文件中，当前车、当前滤清器：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;time_index_now = time_index_now_new&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now&lt;/font&gt; = &lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now&lt;/font&gt;_new&lt;/div&gt;&lt;div&gt;datavalid_list = dv_list_new&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;totalleage&lt;/font&gt;_list = t_list_new&lt;br&gt;&lt;/div&gt;&lt;div&gt;rul = R&lt;/div&gt;rul_warning = R_warn&lt;div&gt;&lt;b&gt;保存文件&lt;/b&gt;&lt;b&gt;ResultFile.csv&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;align=left;fontFamily=Times New Roman;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="190" y="1275" width="250" height="125" as="geometry" />
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-104" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-97" target="FsYi8NZGnZM2h-i9JEnJ-100">
