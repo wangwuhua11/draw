@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T02:17:27.613Z" agent="5.0 (Windows)" etag="kbJTd6yUUAq3DxCgaK6V" version="17.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T02:20:41.119Z" agent="5.0 (Windows)" etag="XKNkKA-_BEKVqZb9Ja6s" version="17.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2058" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1936" dy="1012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -59,10 +59,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-24" value="&lt;div align=&quot;justify&quot;&gt;&lt;b&gt;读取influxdb中当前车、当前滤清器：&lt;/b&gt;在当前时刻now至前一天的所有数据&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;fontFamily=Times New Roman;glass=0;shadow=0;fontStyle=2;spacingLeft=10;spacingRight=10;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1469.71" y="495" width="130" height="60" as="geometry" />
+          <mxGeometry x="1469.71" y="500" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-25" value="数据是否为null" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;strokeColor=#23445d;fillColor=#bac8d3;fontFamily=Times New Roman;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1660" y="505" width="120" height="40" as="geometry" />
+          <mxGeometry x="1660.71" y="510" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-28" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-25" target="FsYi8NZGnZM2h-i9JEnJ-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -91,8 +91,8 @@
             <mxPoint x="1544" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-36" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;读取当前结果文件ResultFile.csv，&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;获取结果文件中当前车、当前滤清器：&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;初始运行时间time_index_initial&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;初始累计公里数totalleage_initial&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;当前运行时间time_index_now&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;当前累计公里数totalleage_now&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;有效值列表datavalid_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数列表totalleage_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;常用工况work_condition&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;数据累计标志Tag&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;fontFamily=Times New Roman;fontStyle=2;spacingLeft=15;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1128.9999999999998" y="450" width="290" height="150" as="geometry" />
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-36" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;读取当前结果文件ResultFile.csv，&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;获取结果文件中当前车、当前滤清器：&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;初始运行时间time_index_initial&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;初始累计公里数totalleage_initial&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;当前运行时间time_index_now&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;当前累计公里数totalleage_now&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;有效值列表datavalid_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数列表totalleage_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;常用工况work_condition&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;数据累计标志Tag&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;ECU更换公里数累计totalleage_change&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;fontFamily=Times New Roman;fontStyle=2;spacingLeft=15;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1129" y="450" width="291" height="160" as="geometry" />
         </mxCell>
         <mxCell id="FsYi8NZGnZM2h-i9JEnJ-37" value="&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;剔除数据中的null值，获取最后一条数据中：&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;最新运行时间time_index_now_i&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;最新&lt;/font&gt;累计公里数totalleage_now_i&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;fontFamily=Times New Roman;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1600.71" y="640" width="240" height="50" as="geometry" />
@@ -228,8 +228,8 @@
             <mxPoint x="1704" y="590" as="sourcePoint" />
             <mxPoint x="1754" y="540" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="690" y="390" />
-              <mxPoint x="690" y="310" />
+              <mxPoint x="600" y="390" />
+              <mxPoint x="600" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -342,8 +342,8 @@
             <mxPoint x="1680" y="1010" as="sourcePoint" />
             <mxPoint x="1340" y="400" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="690" y="1190" />
-              <mxPoint x="690" y="1940" />
+              <mxPoint x="600" y="1190" />
+              <mxPoint x="600" y="1940" />
               <mxPoint x="2130" y="1940" />
               <mxPoint x="2130" y="390" />
             </Array>
@@ -409,7 +409,7 @@
         <mxCell id="ttKVwPnGXLAYkh8J1mRo-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;strokeColor=#457B9D;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ttKVwPnGXLAYkh8J1mRo-8" target="ttKVwPnGXLAYkh8J1mRo-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ttKVwPnGXLAYkh8J1mRo-8" value="获取“累计公里数”中突变的数据点totalleage_change" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;align=left;fillColor=#E1D5E7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-8" value="获取“累计公里数”中突变的数据点totalleage_change_new" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;align=left;fillColor=#E1D5E7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1035.46" y="960" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ttKVwPnGXLAYkh8J1mRo-9" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Times New Roman;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#457B9D;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ttKVwPnGXLAYkh8J1mRo-5" target="ttKVwPnGXLAYkh8J1mRo-8">
@@ -458,7 +458,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ttKVwPnGXLAYkh8J1mRo-19" value="&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now_i = &lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now_i + &lt;/font&gt;totalleage_change&lt;font face=&quot;Times New Roman&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#E1D5E7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-19" value="&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now_i = &lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now_i + &lt;/font&gt;totalleage_change_new&lt;font face=&quot;Times New Roman&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#E1D5E7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="972.96" y="1034" width="315" height="36" as="geometry" />
         </mxCell>
         <mxCell id="ttKVwPnGXLAYkh8J1mRo-22" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Times New Roman;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#457B9D;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ttKVwPnGXLAYkh8J1mRo-4" target="FsYi8NZGnZM2h-i9JEnJ-42">
@@ -480,7 +480,7 @@
             <mxPoint x="1430" y="890" as="sourcePoint" />
             <mxPoint x="1480" y="840" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1435" y="1050" />
+              <mxPoint x="1435" y="1052" />
             </Array>
           </mxGeometry>
         </mxCell>
