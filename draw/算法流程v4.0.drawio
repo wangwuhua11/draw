@@ -1,0 +1,554 @@
+<mxfile host="app.diagrams.net" modified="2022-04-09T08:32:32.312Z" agent="5.0 (Windows)" etag="kvsCfH_OjuXTdqCoGgwi" version="17.2.2" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1917" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#F1FAEE" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1214" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="1=1" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1214" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-3" value="休眠30分钟" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1804" y="295" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-4" value="" style="endArrow=classic;html=1;rounded=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1334" y="490" as="sourcePoint" />
+            <mxPoint x="1384" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2130" y="310" />
+              <mxPoint x="2130" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-14" value="遍历三滤" style="rhombus;whiteSpace=wrap;html=1;rounded=0;sketch=0;fontColor=#ffffff;strokeColor=#432D57;fillColor=#76608a;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1214" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-18" value="" style="endArrow=classic;html=1;rounded=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="FsYi8NZGnZM2h-i9JEnJ-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1334" y="310" as="sourcePoint" />
+            <mxPoint x="2194" y="750" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-60" value="完成遍历" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;labelBorderColor=default;" parent="FsYi8NZGnZM2h-i9JEnJ-18" vertex="1" connectable="0">
+          <mxGeometry x="-0.8018" y="1" relative="1" as="geometry">
+            <mxPoint x="182" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-20" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=default;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1274" y="330" as="sourcePoint" />
+            <mxPoint x="1274" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-21" value="遍历车牌" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#ffffff;strokeColor=#432D57;fillColor=#76608a;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1214" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-23" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="FsYi8NZGnZM2h-i9JEnJ-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1274" y="240" as="sourcePoint" />
+            <mxPoint x="1324" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-30" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;fontFamily=Times New Roman;labelBorderColor=default;" parent="FsYi8NZGnZM2h-i9JEnJ-23" vertex="1" connectable="0">
+          <mxGeometry x="-0.2933" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-24" value="&lt;div align=&quot;justify&quot;&gt;&lt;b&gt;读取influxdb中当前车、当前滤清器：&lt;/b&gt;在当前时刻now至前一天的所有数据&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;fontFamily=Times New Roman;glass=0;shadow=0;fontStyle=2;spacingLeft=10;spacingRight=10;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1469.71" y="500" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-25" value="数据是否为null" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;strokeColor=#23445d;fillColor=#bac8d3;fontFamily=Times New Roman;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1660.71" y="510" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-28" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-25" target="FsYi8NZGnZM2h-i9JEnJ-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1574" y="580" as="sourcePoint" />
+            <mxPoint x="1624" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1720" y="390" />
+              <mxPoint x="1434" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-29" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;labelBackgroundColor=default;labelBorderColor=default;fontFamily=Times New Roman;" parent="FsYi8NZGnZM2h-i9JEnJ-28" vertex="1" connectable="0">
+          <mxGeometry x="0.0817" y="-2" relative="1" as="geometry">
+            <mxPoint x="156" y="62" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-31" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-21" target="FsYi8NZGnZM2h-i9JEnJ-36" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1494" y="660" as="sourcePoint" />
+            <mxPoint x="1544" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-32" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-24" target="FsYi8NZGnZM2h-i9JEnJ-25" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1494" y="660" as="sourcePoint" />
+            <mxPoint x="1544" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-36" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;读取当前结果文件ResultFile.csv，&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;获取结果文件中当前车、当前滤清器：&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;初始运行时间time_index_initial&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;初始累计公里数totalleage_initial&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;当前运行时间time_index_now&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;当前累计公里数totalleage_now&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;有效值列表datavalid_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数列表totalleage_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;常用工况work_condition&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;数据累计标志Tag&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;ECU更换公里数累计Ecu_Change&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;fontFamily=Times New Roman;fontStyle=2;spacingLeft=15;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1129" y="450" width="291" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-37" value="&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;获取最后一条数据中：&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;最新运行时间time_index_now_i&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;最新&lt;/font&gt;累计公里数totalleage_now_i&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;fontFamily=Times New Roman;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1600.71" y="640" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-39" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="FsYi8NZGnZM2h-i9JEnJ-37" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1720" y="550" as="sourcePoint" />
+            <mxPoint x="1544" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-76" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fontColor=#1D3557;labelBorderColor=default;" parent="FsYi8NZGnZM2h-i9JEnJ-39" vertex="1" connectable="0">
+          <mxGeometry x="-0.2705" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-42" value="Tag是否为False" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#23445d;fillColor=#bac8d3;fontFamily=Times New Roman;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1344.7099999999998" y="1165" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-45" value="&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now_i&lt;/font&gt; - totalleage_initial &amp;lt; 3000" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#23445d;fillColor=#bac8d3;fontFamily=Times New Roman;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1269.7099999999998" y="1255" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-47" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-42" target="FsYi8NZGnZM2h-i9JEnJ-45" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1495.7099999999998" y="1155" as="sourcePoint" />
+            <mxPoint x="1545.7099999999998" y="1105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-75" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fontColor=#1D3557;labelBorderColor=default;" parent="FsYi8NZGnZM2h-i9JEnJ-47" vertex="1" connectable="0">
+          <mxGeometry x="-0.2167" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-48" value="&lt;div&gt;&lt;b&gt;更改结果文件，将当前车、当前滤清器：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;time_index_now = time_index_now_i&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now&lt;/font&gt; = &lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now_i&lt;/font&gt;&lt;/div&gt;&lt;div&gt;rul = “Data is accumulation!”&lt;/div&gt;&lt;div&gt;&lt;div&gt;Ecu_Change = Ecu_Change_new&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;保存结果文件&lt;/b&gt;&lt;b&gt;ResultFile.csv&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;align=left;fontFamily=Times New Roman;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1309.71" y="1375" width="250" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-51" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-45" target="FsYi8NZGnZM2h-i9JEnJ-48" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1465.7099999999998" y="1275" as="sourcePoint" />
+            <mxPoint x="1515.7099999999998" y="1225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-53" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;fontFamily=Times New Roman;labelBorderColor=default;" parent="FsYi8NZGnZM2h-i9JEnJ-51" vertex="1" connectable="0">
+          <mxGeometry x="-0.3496" relative="1" as="geometry">
+            <mxPoint y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-52" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-48" target="FsYi8NZGnZM2h-i9JEnJ-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1563" y="1069" as="sourcePoint" />
+            <mxPoint x="1338" y="409" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1850" y="1423" />
+              <mxPoint x="1850" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-57" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;读取inluxdb中当前车、当前滤清器：&lt;/b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;time_index_now_i&lt;/font&gt;至time_index_initial的所有数据&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;fontFamily=Times New Roman;fontStyle=2;spacingLeft=10;spacingRight=5;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1259.7099999999998" y="1485" width="304.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-58" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-45" target="FsYi8NZGnZM2h-i9JEnJ-57" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1605.7099999999998" y="1295" as="sourcePoint" />
+            <mxPoint x="1650.7099999999998" y="1235" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1201.7099999999998" y="1295" />
+              <mxPoint x="1201.7099999999998" y="1510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-59" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;fontFamily=Times New Roman;labelBorderColor=default;" parent="FsYi8NZGnZM2h-i9JEnJ-58" vertex="1" connectable="0">
+          <mxGeometry x="-0.3789" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="61" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-61" value="通过该数据获取常用工况&lt;font face=&quot;Times New Roman&quot;&gt;WC&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1771.7099999999998" y="1485" width="176" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-62" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;通过该数据，结合常用工况&lt;/b&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;WC&lt;/font&gt;获取:&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;有效值列表dv_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数列表t_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;最新&lt;/font&gt;运行时间time_index_now_new&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;最新&lt;/font&gt;累计公里数totalleage_now_new&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1753.7099999999998" y="1575" width="212" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-63" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;通过有效值列表和累计公里数列表计算：&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;剩余寿命R&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;寿命预警R_warn&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1748.4599999999998" y="1685" width="222.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-64" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-94" target="FsYi8NZGnZM2h-i9JEnJ-61" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1645.7099999999998" y="1525" as="sourcePoint" />
+            <mxPoint x="1695.7099999999998" y="1475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-65" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-61" target="FsYi8NZGnZM2h-i9JEnJ-62" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1645.7099999999998" y="1525" as="sourcePoint" />
+            <mxPoint x="1695.7099999999998" y="1475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-66" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-62" target="FsYi8NZGnZM2h-i9JEnJ-63" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1645.7099999999998" y="1525" as="sourcePoint" />
+            <mxPoint x="1695.7099999999998" y="1475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-67" value="Tag_new = True" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1591.7099999999998" y="1700" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-68" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-63" target="FsYi8NZGnZM2h-i9JEnJ-67" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1645.7099999999998" y="1635" as="sourcePoint" />
+            <mxPoint x="1695.7099999999998" y="1585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-69" value="&lt;div&gt;&lt;b&gt;更改结果文件，将当前车、当前滤清器：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;time_index_now = time_index_now_new&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now&lt;/font&gt; = &lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now&lt;/font&gt;_new&lt;/div&gt;&lt;div&gt;datavalid_list = dv_list&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;totalleage&lt;/font&gt;_list = t_list&lt;br&gt;&lt;/div&gt;&lt;div&gt;rul = R&lt;/div&gt;&lt;div&gt;rul_warning = R_warn&lt;br&gt;&lt;/div&gt;&lt;div&gt;working_condition = WC&lt;br&gt;&lt;/div&gt;&lt;div&gt;Tag = Tag_new &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Ecu_Change = Ecu_Change_new&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;保存结果文件&lt;/b&gt;&lt;b&gt;ResultFile.csv&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;align=left;fontFamily=Times New Roman;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1310.71" y="1630" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-73" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-67" target="FsYi8NZGnZM2h-i9JEnJ-69" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1505.7099999999998" y="2035" as="sourcePoint" />
+            <mxPoint x="1555.7099999999998" y="1985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-74" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-69" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1384" y="1150" as="sourcePoint" />
+            <mxPoint x="1334" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1436" y="1850" />
+              <mxPoint x="2010" y="1850" />
+              <mxPoint x="2010" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-77" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-21" target="FsYi8NZGnZM2h-i9JEnJ-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1704" y="590" as="sourcePoint" />
+            <mxPoint x="1754" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="390" />
+              <mxPoint x="600" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-78" value="完成遍历" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fontColor=#1D3557;labelBorderColor=default;" parent="FsYi8NZGnZM2h-i9JEnJ-77" vertex="1" connectable="0">
+          <mxGeometry x="0.0964" y="1" relative="1" as="geometry">
+            <mxPoint x="225" y="81" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-84" value="&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now_i &lt;/font&gt;-&lt;font face=&quot;Times New Roman&quot;&gt; totalleage_now&lt;/font&gt; &amp;gt;= 100" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#23445d;fillColor=#bac8d3;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="821.7100000000002" y="1150" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-85" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-42" target="FsYi8NZGnZM2h-i9JEnJ-84" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1501.7099999999998" y="1385" as="sourcePoint" />
+            <mxPoint x="1551.7099999999998" y="1335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-86" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fontColor=#1D3557;labelBorderColor=default;" parent="FsYi8NZGnZM2h-i9JEnJ-85" vertex="1" connectable="0">
+          <mxGeometry x="-0.0882" y="3" relative="1" as="geometry">
+            <mxPoint x="-9" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-89" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.492;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="250" as="sourcePoint" />
+            <mxPoint x="1340" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-92" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;读取influxdb中当前车、当前滤清器：&lt;/b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;time_index_now_i&lt;/font&gt;至time_index_now的所有数据&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;fontStyle=2;spacingLeft=10;spacingRight=10;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="808.4600000000002" y="1270" width="316.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-94" value="&lt;div align=&quot;left&quot;&gt;根据“累计公里数”字段添加“累计公里数_100”字段&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1588.4599999999998" y="1485" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-96" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-57" target="09gv-E61fuyjvBYx6QCA-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1541.7099999999998" y="1665" as="sourcePoint" />
+            <mxPoint x="1591.7099999999998" y="1615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-97" value="&lt;div align=&quot;left&quot;&gt;根据“累计公里数”字段添加“累计公里数_100”字段&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="886.7100000000002" y="1410" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-98" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-84" target="FsYi8NZGnZM2h-i9JEnJ-92" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1481.7099999999998" y="1325" as="sourcePoint" />
+            <mxPoint x="1531.7099999999998" y="1275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-110" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fontColor=#1D3557;labelBorderColor=default;" parent="FsYi8NZGnZM2h-i9JEnJ-98" vertex="1" connectable="0">
+          <mxGeometry x="-0.4738" y="-1" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-100" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;通过该数据，结合常用工况&lt;/b&gt;&lt;b&gt;work_condition获取:&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;有效值列表dv_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;累计公里数列表t_list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;最新&lt;/font&gt;运行时间time_index_now_new&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;最新&lt;/font&gt;累计公里数totalleage_now_new&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="831.7100000000002" y="1490" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-101" value="&lt;div&gt;将dv_list新增于datavalid_list形成dv_list_new&lt;/div&gt;&lt;div&gt;将t_list新增于totalleage_list形成t_list_new&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="841.7100000000002" y="1600" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-102" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;通过&lt;/b&gt;&lt;b&gt;dv_list_new和&lt;/b&gt;&lt;b&gt;t_list_new计算：&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;剩余寿命R&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;寿命预警R_warn&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Times New Roman;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="866.7100000000002" y="1670" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-103" value="&lt;div&gt;&lt;b&gt;更改结果文件，将当前车、当前滤清器：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;time_index_now = time_index_now_new&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now&lt;/font&gt; = &lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now&lt;/font&gt;_new&lt;/div&gt;&lt;div&gt;datavalid_list = dv_list_new&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;totalleage&lt;/font&gt;_list = t_list_new&lt;br&gt;&lt;/div&gt;&lt;div&gt;rul = R&lt;/div&gt;&lt;div&gt;rul_warning = R_warn&lt;/div&gt;&lt;div&gt;&lt;div&gt;Ecu_Change = Ecu_Change_new&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;保存结果文件&lt;/b&gt;&lt;b&gt;ResultFile.csv&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;align=left;fontFamily=Times New Roman;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="841.71" y="1740" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-104" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-97" target="FsYi8NZGnZM2h-i9JEnJ-100" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1261.7099999999998" y="1670" as="sourcePoint" />
+            <mxPoint x="1311.7099999999998" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-105" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-100" target="FsYi8NZGnZM2h-i9JEnJ-101" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1241.7099999999998" y="1670" as="sourcePoint" />
+            <mxPoint x="1291.7099999999998" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-106" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-101" target="FsYi8NZGnZM2h-i9JEnJ-102" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1241.7099999999998" y="1670" as="sourcePoint" />
+            <mxPoint x="1291.7099999999998" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-107" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-102" target="FsYi8NZGnZM2h-i9JEnJ-103" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1241.7099999999998" y="1670" as="sourcePoint" />
+            <mxPoint x="1291.7099999999998" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-108" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-103" target="FsYi8NZGnZM2h-i9JEnJ-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1300" y="1210" as="sourcePoint" />
+            <mxPoint x="1340" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="967" y="1900" />
+              <mxPoint x="2090" y="1900" />
+              <mxPoint x="2090" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-109" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fontFamily=Times New Roman;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-84" target="FsYi8NZGnZM2h-i9JEnJ-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1680" y="1010" as="sourcePoint" />
+            <mxPoint x="1340" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="1190" />
+              <mxPoint x="600" y="1940" />
+              <mxPoint x="2130" y="1940" />
+              <mxPoint x="2130" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-111" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fontColor=#1D3557;labelBorderColor=default;" parent="FsYi8NZGnZM2h-i9JEnJ-109" vertex="1" connectable="0">
+          <mxGeometry x="-0.9723" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-114" value="Tag为True表示数据累计完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontColor=#4D4D4D;fontStyle=0;labelBackgroundColor=#FFFFCC;labelBorderColor=#B3FF66;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1544.7099999999998" y="1180" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-115" value="空滤、精滤、粗滤" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontColor=#4D4D4D;fontStyle=0;labelBackgroundColor=#FFFFCC;labelBorderColor=#B3FF66;spacingRight=10;spacingLeft=10;spacing=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1294" y="275" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-116" value="读取最新的小批量数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontColor=#4D4D4D;fontStyle=0;labelBackgroundColor=#FFFFCC;labelBorderColor=#B3FF66;spacingRight=10;spacingLeft=10;spacing=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1454.71" y="460" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-117" value="3000公里的数据累计阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontColor=#4D4D4D;fontStyle=0;labelBackgroundColor=#FFFFCC;labelBorderColor=#B3FF66;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1450.7099999999998" y="1345" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-118" value="累计公里数新增100" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontColor=#4D4D4D;fontStyle=0;labelBackgroundColor=#FFFFCC;labelBorderColor=#B3FF66;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="986.7100000000002" y="1235" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-119" value="多辆车" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontColor=#4D4D4D;fontStyle=0;labelBackgroundColor=#FFFFCC;labelBorderColor=#B3FF66;spacingRight=10;spacingLeft=10;spacing=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1305.25" y="360" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FsYi8NZGnZM2h-i9JEnJ-120" value="累计公里数除以100后取整数部分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontColor=#4D4D4D;fontStyle=0;labelBackgroundColor=#FFFFCC;labelBorderColor=#B3FF66;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1573.4599999999998" y="1450" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-0" value="totalleage_now是否为0" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#BAC8D3;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1035.46" y="640" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-2" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Times New Roman;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#457B9D;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ttKVwPnGXLAYkh8J1mRo-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1245.46" y="860" as="sourcePoint" />
+            <mxPoint x="1130.46" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-3" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;labelBorderColor=default;" parent="ttKVwPnGXLAYkh8J1mRo-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.5153" y="-1" relative="1" as="geometry">
+            <mxPoint y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-4" value="&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now_i&lt;/font&gt;是否小于totalleage_initial " style="rhombus;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#BAC8D3;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="990.46" y="740" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-5" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;读取influxdb中当前车、当前滤清器：&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;time_index_now_i&lt;/font&gt;至time_index_initial的所有数据&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#E1D5E7;fontStyle=2" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1000.46" y="870" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-6" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Times New Roman;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#457B9D;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ttKVwPnGXLAYkh8J1mRo-4" target="ttKVwPnGXLAYkh8J1mRo-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="795.46" y="850" as="sourcePoint" />
+            <mxPoint x="845.46" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-7" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;" parent="ttKVwPnGXLAYkh8J1mRo-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.4929" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-8" value="获取“累计公里数”中突变的数据点Ecu_Change_new_i，并新增于Ecu_Change形成Ecu_Change_new" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;align=left;fillColor=#E1D5E7;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="625.69" y="960" width="319.54" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-9" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Times New Roman;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#457B9D;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ttKVwPnGXLAYkh8J1mRo-5" target="ttKVwPnGXLAYkh8J1mRo-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="735.46" y="1090" as="sourcePoint" />
+            <mxPoint x="785.46" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1130" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-10" value="&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now_i&lt;/font&gt;是否小于totalleage_now " style="rhombus;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#BAC8D3;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="645.46" y="740" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-11" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Times New Roman;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#457B9D;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ttKVwPnGXLAYkh8J1mRo-0" target="ttKVwPnGXLAYkh8J1mRo-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495.46" y="1030" as="sourcePoint" />
+            <mxPoint x="545.46" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="785.46" y="665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-12" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;labelBorderColor=default;" parent="ttKVwPnGXLAYkh8J1mRo-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.3108" y="2" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-13" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Times New Roman;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#457B9D;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ttKVwPnGXLAYkh8J1mRo-10" target="ttKVwPnGXLAYkh8J1mRo-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140.46" y="830" as="sourcePoint" />
+            <mxPoint x="785.46" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-14" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;labelBorderColor=default;" parent="ttKVwPnGXLAYkh8J1mRo-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.4929" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-15" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;读取influxdb中当前车、当前滤清器：&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;time_index_now_i&lt;/font&gt;至time_index_now的所有数据&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#E1D5E7;fontStyle=2" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="655.46" y="870" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-19" value="&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now_i = &lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now_i + &lt;/font&gt;Ecu_Change_new_i" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#E1D5E7;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1035.46" y="1046" width="315" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-22" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Times New Roman;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#457B9D;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ttKVwPnGXLAYkh8J1mRo-4" target="FsYi8NZGnZM2h-i9JEnJ-42" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="890" as="sourcePoint" />
+            <mxPoint x="1480" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1435" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-27" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;labelBorderColor=default;" parent="ttKVwPnGXLAYkh8J1mRo-22" vertex="1" connectable="0">
+          <mxGeometry x="-0.6846" y="-3" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-23" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Times New Roman;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#457B9D;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ttKVwPnGXLAYkh8J1mRo-19" target="FsYi8NZGnZM2h-i9JEnJ-42" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="890" as="sourcePoint" />
+            <mxPoint x="1480" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1435" y="1064" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-24" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Times New Roman;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#457B9D;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ttKVwPnGXLAYkh8J1mRo-10" target="FsYi8NZGnZM2h-i9JEnJ-42" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="890" as="sourcePoint" />
+            <mxPoint x="1480" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="780" />
+              <mxPoint x="600" y="1110" />
+              <mxPoint x="1435" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-26" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;labelBorderColor=default;" parent="ttKVwPnGXLAYkh8J1mRo-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.7856" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="65" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-29" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Times New Roman;strokeColor=#457B9D;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-36" target="FsYi8NZGnZM2h-i9JEnJ-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1420" y="525" as="sourcePoint" />
+            <mxPoint x="1280" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-33" value="&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now_i = &lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;totalleage_now_i加上&amp;nbsp;&lt;/font&gt;Ecu_Change中的每个元素" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#E1D5E7;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1305.25" y="647" width="220" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-37" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Times New Roman;strokeColor=#457B9D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ttKVwPnGXLAYkh8J1mRo-15" target="ttKVwPnGXLAYkh8J1mRo-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="1080" as="sourcePoint" />
+            <mxPoint x="1380" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttKVwPnGXLAYkh8J1mRo-39" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Times New Roman;strokeColor=#457B9D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ttKVwPnGXLAYkh8J1mRo-8" target="ttKVwPnGXLAYkh8J1mRo-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="912.7299999999996" y="1064" as="sourcePoint" />
+            <mxPoint x="1380" y="1030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="785" y="1064" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="09gv-E61fuyjvBYx6QCA-0" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-37" target="ttKVwPnGXLAYkh8J1mRo-33" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1170" y="870" as="sourcePoint" />
+            <mxPoint x="1220" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="09gv-E61fuyjvBYx6QCA-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ttKVwPnGXLAYkh8J1mRo-33" target="ttKVwPnGXLAYkh8J1mRo-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1170" y="870" as="sourcePoint" />
+            <mxPoint x="1220" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="09gv-E61fuyjvBYx6QCA-2" value="根据Ecu_Change_new处理“累计公里数”字段，形成更新后的“累计公里数”" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;align=left;fillColor=#E1D5E7;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="864.44" y="1345" width="204.54" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="09gv-E61fuyjvBYx6QCA-3" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Times New Roman;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#457B9D;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FsYi8NZGnZM2h-i9JEnJ-92" target="09gv-E61fuyjvBYx6QCA-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="1250" as="sourcePoint" />
+            <mxPoint x="1230" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="09gv-E61fuyjvBYx6QCA-4" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Times New Roman;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#457B9D;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="09gv-E61fuyjvBYx6QCA-2" target="FsYi8NZGnZM2h-i9JEnJ-97" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="1250" as="sourcePoint" />
+            <mxPoint x="1230" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="09gv-E61fuyjvBYx6QCA-5" value="根据Ecu_Change_new处理“累计公里数”字段，形成更新后的“累计公里数”" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;align=left;fillColor=#E1D5E7;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1309.8200000000002" y="1560" width="204.54" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="09gv-E61fuyjvBYx6QCA-7" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Times New Roman;strokeColor=#457B9D;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="09gv-E61fuyjvBYx6QCA-5" target="FsYi8NZGnZM2h-i9JEnJ-94" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1470" y="1390" as="sourcePoint" />
+            <mxPoint x="1520" y="1340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1668" y="1580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
