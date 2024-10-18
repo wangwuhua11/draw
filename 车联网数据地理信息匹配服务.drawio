@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="Ni90BN1wA_N-kfd-1URX">
-    <mxGraphModel dx="3878" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="3565" dy="1575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -761,18 +761,6 @@
             <mxPoint x="1410" y="-280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qYlMRX3e8qcYRXx63u1V-348" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endArrow=open;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="qYlMRX3e8qcYRXx63u1V-339" target="qYlMRX3e8qcYRXx63u1V-345">
-          <mxGeometry width="140" relative="1" as="geometry">
-            <mxPoint x="1260" y="-440" as="sourcePoint" />
-            <mxPoint x="1420" y="-270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qYlMRX3e8qcYRXx63u1V-349" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endArrow=open;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontStyle=1" edge="1" parent="1" source="qYlMRX3e8qcYRXx63u1V-340">
-          <mxGeometry width="140" relative="1" as="geometry">
-            <mxPoint x="1350" y="-30" as="sourcePoint" />
-            <mxPoint x="1410" y="-240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="qYlMRX3e8qcYRXx63u1V-350" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;宋体&quot;&gt;&lt;b&gt;生成任务ID&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1050" y="-62.5" width="120" height="45" as="geometry" />
         </mxCell>
@@ -790,6 +778,28 @@
           <mxGeometry width="140" relative="1" as="geometry">
             <mxPoint x="1180" y="-30" as="sourcePoint" />
             <mxPoint x="1220" y="-30" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYlMRX3e8qcYRXx63u1V-355" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;宋体&quot;&gt;维护任务信息至任务状态信息表&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="-180" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qYlMRX3e8qcYRXx63u1V-356" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endArrow=open;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="qYlMRX3e8qcYRXx63u1V-339" target="qYlMRX3e8qcYRXx63u1V-355">
+          <mxGeometry width="140" relative="1" as="geometry">
+            <mxPoint x="1500" y="-52.5" as="sourcePoint" />
+            <mxPoint x="1690" y="-17.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYlMRX3e8qcYRXx63u1V-357" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endArrow=open;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontStyle=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qYlMRX3e8qcYRXx63u1V-340" target="qYlMRX3e8qcYRXx63u1V-355">
+          <mxGeometry width="140" relative="1" as="geometry">
+            <mxPoint x="1400" y="-30" as="sourcePoint" />
+            <mxPoint x="1409" y="-133" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYlMRX3e8qcYRXx63u1V-358" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endArrow=open;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qYlMRX3e8qcYRXx63u1V-355" target="qYlMRX3e8qcYRXx63u1V-345">
+          <mxGeometry width="140" relative="1" as="geometry">
+            <mxPoint x="1460" y="-90" as="sourcePoint" />
+            <mxPoint x="1600" y="-90" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
