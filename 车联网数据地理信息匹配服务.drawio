@@ -1016,34 +1016,34 @@
         <mxCell id="2A0W2CnTfT9Ry1PuDVfl-15" value="&lt;font face=&quot;宋体&quot; style=&quot;font-size: 20px;&quot;&gt;确定&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1333" y="-990" width="85" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-720" y="-380" width="250" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-17" value="&lt;font face=&quot;宋体&quot;&gt;&lt;b&gt;轨迹库数据&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-17" value="&lt;font face=&quot;宋体&quot;&gt;&lt;b&gt;轨迹库数据&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-705" y="-379" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-18" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;静态信息&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-18" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;静态信息&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-710" y="-342" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-19" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;原始轨迹&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-19" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;原始轨迹&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-590" y="-342" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-20" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;压缩轨迹&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-20" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;压缩轨迹&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-710" y="-301" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-21" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;指标数据&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-21" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;指标数据&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-710" y="-260" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-22" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;MBR&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-22" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;MBR&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-590" y="-301" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-23" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;...&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-23" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;...&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-590" y="-260" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2A0W2CnTfT9Ry1PuDVfl-25" value="&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;加工任务（T+1）&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="-750" y="-220" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-26" value="&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;相似轨迹检索&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+        <mxCell id="2A0W2CnTfT9Ry1PuDVfl-26" value="&lt;font color=&quot;#666666&quot; face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;相似轨迹检索&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-1060" y="-495" width="175" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="2A0W2CnTfT9Ry1PuDVfl-27" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;API接口&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
